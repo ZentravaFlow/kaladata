@@ -88,7 +88,7 @@ def export_sqlite(items, db_filename):
     print(f"داده‌ها در '{db_filename}' ذخیره شدند.")
 
 def main():
-    # دریافت ورودی از کاربر برای تعداد صفحات، نوع ذخیره‌سازی و نام فایل
+    # دریافت ورودی از کاربر برای تعداد صفحات، نوع ذخیره‌ سازی و نام فایل
     num_pages = int(input("تعداد صفحات را وارد کنید: "))
     storage_type = input("نوع ذخیره‌ سازی را انتخاب کنید (csv یا sqlite): ").strip().lower()
     filename = input("نام فایل را وارد کنید (بدون پسوند): ").strip()
